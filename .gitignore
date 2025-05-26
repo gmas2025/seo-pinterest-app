@@ -1,0 +1,25 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/  # <--- Essential for ignoring your virtual environment
+*.env  # <--- CRUCIAL for ignoring your API keys!
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit specific
+.streamlit/
+
+# DALL-E temp images
+temp_images/ # <--- Essential for ignoring temporary generated images
+
+# IDE specific (if you use them)
+.vscode/
+.idea/
+
+# macOS specific (if applicable)
+.DS_Store
