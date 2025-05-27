@@ -5,8 +5,8 @@ __pycache__/
 *.pyd
 .Python/
 env/
-venv/  # <--- Essential for ignoring your virtual environment
-*.env  # <--- CRUCIAL for ignoring your API keys!
+venv/
+*.env
 .ipynb_checkpoints/
 .pytest_cache/
 .mypy_cache/
@@ -15,7 +15,7 @@ venv/  # <--- Essential for ignoring your virtual environment
 .streamlit/
 
 # DALL-E temp images
-temp_images/ # <--- Essential for ignoring temporary generated images
+temp_images/
 
 # IDE specific (if you use them)
 .vscode/
@@ -23,3 +23,75 @@ temp_images/ # <--- Essential for ignoring temporary generated images
 
 # macOS specific (if applicable)
 .DS_Store
+
+# Added from Python template common ignores
+# Distribution / packaging
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+# .ipynb_checkpoints is already above, so skip this specific one
+# .ipynb_checkpoints # (do not add again if already present)
+
+# Environments (already handled with .env and venv above)
+# .env
+# .venv
+# env/
+# venv/
+# ENV/
+# env.bak/
+# venv.bak/
+
+# PyCharm (if you uncomment .idea above, then you don't need this)
+#.idea/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
