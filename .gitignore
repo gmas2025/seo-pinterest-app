@@ -135,6 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+temp_images/ # <--- Essential for ignoring temporary generated images
 
 # Spyder project settings
 .spyderproject
